@@ -13,7 +13,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "Orans",
-  description: "Orans is an organization to sonline tickets for everyone",
+  description: "Orans is an organization to online tickets for everyone",
   icons: {
     icon: icon.src,
   }

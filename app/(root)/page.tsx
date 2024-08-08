@@ -11,7 +11,7 @@ export default function Home() {
         <div className="flex flex-col justify-center gap-8">
           <h1 className="h1-bold"> Let Your Event To Be Fascinating By Orans!</h1>
           <p className="p-regular-20 md:p-regular-24">Easy Joining and Booking for your interesting event in the country by Orans</p>
-          <Button size="lg" asChild className="button w-full am:w-fit bg-orange-400">
+          <Button size="lg" asChild className="button w-full am:w-fit bg-orange-400 ac:bg-orange-600 hover:bg-orange-600 active:bg-orange-700 ">
               <Link href="#Event">
                 Find Now
               </Link>

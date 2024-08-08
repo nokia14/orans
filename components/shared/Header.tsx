@@ -3,7 +3,7 @@ import { SignedIn, UserButton } from "@clerk/nextjs"
 import Image from "next/image"
 import Link from "next/link"
 import { Button } from "../ui/button"
-import image from '@/public/assets/ors.svg'
+import imageic from '@/public/assets/ors.svg'
 import NavItems from "./NavItems"
 import MobileNav from "./MobileNav"
 
@@ -14,7 +14,7 @@ const Header = () => {
         <div className='wrapper flex items-center justify-between'>
             <Link href="/" className="w-36">
                 <Image
-                    src={image} width={50} height={10}
+                    src={imageic} width={50} height={10}
                     alt="Orans"
                 />
             </Link>
